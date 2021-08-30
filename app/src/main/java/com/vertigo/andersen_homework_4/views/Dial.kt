@@ -101,6 +101,7 @@ class Dial(context: Context, attrs: AttributeSet): View(context, attrs) {
     }
 
     private fun drawHourArrow(canvas: Canvas?, location: Float) {
+        // формула взята с просторов stackOverFlow и переделана под свою задачу
         val corner = Math.PI * location / 30 - Math.PI / 2
 
         canvas?.apply {
