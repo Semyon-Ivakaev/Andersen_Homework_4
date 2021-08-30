@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="Dial">
+        <attr name="hourArrow_color" format="color"/>
+        <attr name="minuteArrow_color" format="color"/>
+        <attr name="secondArrow_color" format="color"/>
+
+        <attr name="hourArrow_size">
+            <enum name="small" value="50" />
+            <enum name="normal" value="170" />
+            <enum name="big" value="250" />
+        </attr>
+        <attr name="minuteArrow_size">
+            <enum name="small" value="50" />
+            <enum name="normal" value="170" />
+            <enum name="big" value="250" />
+        </attr>
+        <attr name="secondArrow_size">
+            <enum name="small" value="50" />
+            <enum name="normal" value="170" />
+            <enum name="big" value="250" />
+        </attr>
+    </declare-styleable>
+</resources>
